@@ -93,6 +93,30 @@ const AboutUs = () => {
           eam
         </div>
       </section>
+      {/* contact us section */}
+      <section className="lg:my-10 md:my-10 sm:my-10 lg:mx-12 md:mx-10 sm:mx-10 h-96">
+        <div className="contact-us-bg bg-cover bg-no-repeat h-full">
+          <p
+            className="text-lightblue font-bold 
+          lg:text-5xl md:text-4xl text-center relative lg:top-20 md:top-20 sm:top-20"
+          >
+            <span className="text-red">R</span>eceive the latest technology{" "}
+            <span className="text-red">&</span> <br /> business news in your{" "}
+            <span className="text-red">i</span>nbox{" "}
+            <span className="text-red font-bold">.</span>
+          </p>
+          <div className="relative lg:top-20 md:top-20 sm:top-20 flex justify-center items-center w-full my-5">
+            <input
+              type="text"
+              placeholder="your email address"
+              className="input w-80 max-w-xs custom-input"
+            />
+            <button className="btn btn-primary custom-btn hover:bg-red">
+              Subscribe{" "}
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

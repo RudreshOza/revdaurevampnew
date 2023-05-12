@@ -1,3 +1,12 @@
 .about-us-bg {
   background: url("../../public/bg-pattern-1.png");
 }
+.contact-us-bg {
+  background: url("../../public/footer-bg-004.webp");
+}
+.custom-btn {
+  border-radius: 0 10px 10px 0px;
+}
+.custom-input {
+  border-radius: 10px 0px 0px 10px;
+}
